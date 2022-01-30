@@ -1,5 +1,6 @@
 from distutils.log import debug
 from flask import Flask
+import tensorflow as tf
 
 app = Flask(__name__)
 
