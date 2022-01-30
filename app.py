@@ -5,7 +5,6 @@ import tensorflow as tf
 from tensorflow.keras.preprocessing import image
 import matplotlib.pyplot as plt
 
-#This comment is added for redeployment
 
 # Flask utils
 from flask import Flask, request, render_template
