@@ -28,7 +28,7 @@ jobs:
           source venv/bin/activate         
       
       - name: upgrade pip
-        run: /tmp/8d9e3f328af6388/antenv/bin/python -m pip install --upgrade pip
+        run: pip install --upgrade pip
       
       - name: Install dependencies
         run: pip install -r requirements.txt
